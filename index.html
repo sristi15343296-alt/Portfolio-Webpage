@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sristi | Computer Science Engineering Student & Developer</title>
+  <meta name="description" content="Portfolio of Sristi, a Computer Science and Engineering student at Lovely Professional University with skills in Python, C, C++, web technologies, databases, and software development." />
+  <meta name="keywords" content="Sristi, Computer Science, Software Developer, LPU, Python, Portfolio" />
+  <meta name="author" content="Sristi" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sristi | Computer Science Engineering Student & Developer" />
+  <meta property="og:description" content="Portfolio of Sristi, a Computer Science and Engineering student at Lovely Professional University with skills in Python, C, C++, web technologies, databases, and software development." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts: Poppins for headings, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ SKIP LINK (ACCESSIBILITY) ============ -->
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container" aria-label="Primary navigation">
+      <a href="#home" class="nav-logo">SRISTI<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero-bg-shape" aria-hidden="true"></div>
+      <div class="container hero-grid">
+
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span class="eyebrow-mark">// </span>hello, I'm</p>
+          <h1 class="hero-name">Sristi<span class="cursor" aria-hidden="true">|</span></h1>
+          <h2 class="hero-headline">Computer Science Engineering Student &amp; Aspiring Software Developer</h2>
+          <p class="hero-text">
+            I'm a Computer Science and Engineering student at Lovely Professional University with a strong
+            interest in programming, software development, databases, and problem solving. I enjoy building
+            practical applications and continuously improving my technical skills.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <!--
+              RESUME PDF PLACEHOLDER:
+              The final CV file is linked below and will download when clicked.
+            -->
+            <a href="Sristi_CV_Final.pdf" class="btn btn-outline" download aria-label="Download Sristi's final CV (PDF)">Download CV</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-ring" aria-hidden="true"></div>
+          <!--
+            PROFILE PHOTO:
+            To swap in a different photo later, just replace assets/profile.jpg
+            with your new image (keep the same filename, or update the src below).
+          -->
+          <div class="profile-frame">
+            <img src="assets/profile.jpg" alt="Photo of Sristi" class="profile-photo" />
+          </div>
+          <div class="profile-badge">CSE &middot; LPU</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section id="about" class="section" aria-label="About Sristi">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="eyebrow-mark">// </span>about</p>
+        <h2 class="section-title reveal">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="about-frame">
+              <img src="assets/profile.jpg" alt="Portrait of Sristi" class="about-photo" />
+            </div>
+          </div>
+
+          <div class="about-content reveal">
+            <p>
+              I'm currently pursuing a <strong>Bachelor of Technology in Computer Science and Engineering</strong>
+              at <strong>Lovely Professional University, Phagwara, Punjab</strong>, maintaining a CGPA of
+              <strong>8.42</strong>. My core interests lie in programming, problem solving, and building
+              software applications backed by well-structured databases.
+            </p>
+            <p>
+              I enjoy learning new technologies, collaborating with teams, and adapting quickly to new tools
+              and challenges &mdash; qualities I try to bring into every project I work on.
+            </p>
+
+            <ul class="strength-list" aria-label="Strengths and interests">
+              <li>Programming</li>
+              <li>Problem Solving</li>
+              <li>Software &amp; Application Development</li>
+              <li>Databases</li>
+              <li>Learning New Technologies</li>
+              <li>Team Collaboration</li>
+              <li>Adaptability</li>
+            </ul>
+
+            <div class="stat-cards">
+              <div class="stat-card">
+                <span class="stat-number">8.42</span>
+                <span class="stat-label">CGPA</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">2</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Problems Solved</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">B.Tech</span>
+                <span class="stat-label">CSE Degree</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section id="skills" class="section section-alt" aria-label="Skills and technologies">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="eyebrow-mark">// </span>skills</p>
+        <h2 class="section-title reveal">Skills &amp; Technologies</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3 class="card-title-with-icon"><img src="assets/icons/skill-programming.png" alt="" class="mini-title-icon skill-heading-icon" aria-hidden="true" /><span>Programming Languages</span></h3>
+            <ul>
+              <li>Python</li>
+              <li>C</li>
+              <li>C++</li>
+            </ul>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="card-title-with-icon"><img src="assets/icons/skill-web.png" alt="" class="mini-title-icon skill-heading-icon" aria-hidden="true" /><span>Web Technologies</span></h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="card-title-with-icon"><img src="assets/icons/skill-database.png" alt="" class="mini-title-icon skill-heading-icon" aria-hidden="true" /><span>Databases &amp; Tools</span></h3>
+            <ul>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="card-title-with-icon"><img src="assets/icons/skill-soft.png" alt="" class="mini-title-icon skill-heading-icon" aria-hidden="true" /><span>Soft Skills</span></h3>
+            <ul>
+              <li>Problem Solving</li>
+              <li>Team Collaboration</li>
+              <li>Time Management</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS SECTION ============ -->
+    <section id="projects" class="section" aria-label="Featured projects">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="eyebrow-mark">// </span>projects</p>
+        <h2 class="section-title reveal">Featured Projects</h2>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <a class="project-visual project-visual-1 project-image-link project-gallery-trigger" href="assets/projects/census-proof-01.png" data-project="census" data-gallery-index="0" aria-label="Open Census Management System project proof gallery">
+              <img src="assets/projects/census-proof-01.png" alt="Screenshot of the Census Management System dashboard" class="project-image" loading="lazy" />
+              <span class="project-visual-glyph">01</span>
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <h3>Census Management System</h3>
+                <span class="project-date">May 2026 &ndash; Aug 2026</span>
+              </div>
+              <p class="project-desc">
+                Developed a Census Management System to efficiently store, manage, and organize citizen and
+                population records in a centralized system.
+              </p>
+              <ul class="project-points">
+                <li>Designed a structured database to manage citizen information</li>
+                <li>Improved accessibility of population data</li>
+                <li>Integrated search and record-management functionality</li>
+                <li>Implemented CRUD operations for adding, updating, deleting, and retrieving records</li>
+              </ul>
+              <div class="tech-stack" aria-label="Technology stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">DBMS</span>
+              </div>
+              <!--
+                PROJECT LINK PLACEHOLDER:
+                Only the GitHub profile URL was available, so it is used below.
+                Replace this href with the direct repository URL once it exists.
+              -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-primary btn-sm project-gallery-trigger" data-project="census" data-gallery-index="0">View Project Proof</button>
+                <a href="https://github.com/sristi15343296-alt/census-management-system" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a class="project-visual project-visual-2 project-image-link project-gallery-trigger" href="assets/projects/expenseflow-proof-01.png" data-project="expense" data-gallery-index="0" aria-label="Open ExpenseFlow project proof gallery">
+              <img src="assets/projects/expenseflow-proof-01.png" alt="Screenshot of the ExpenseFlow dashboard" class="project-image" loading="lazy" />
+              <span class="project-visual-glyph">02</span>
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <h3>Expense Tracker</h3>
+                <span class="project-date">Jul 2026 &ndash; Aug 2026</span>
+              </div>
+              <p class="project-desc">
+                Engineered a full-stack Expense Tracker application in Python with database-backed functionality.
+              </p>
+              <ul class="project-points">
+                <li>Implemented complete CRUD functionality</li>
+                <li>Applied SQL aggregate queries</li>
+                <li>Calculated real-time spending totals</li>
+                <li>Created category-wise spending breakdowns</li>
+                <li>Tested the database layer for reliability</li>
+              </ul>
+              <div class="tech-stack" aria-label="Technology stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">SQL</span>
+              </div>
+              <!--
+                PROJECT LINK PLACEHOLDER:
+                Only the GitHub profile URL was available, so it is used below.
+                Replace this href with the direct repository URL once it exists.
+              -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-primary btn-sm project-gallery-trigger" data-project="expense" data-gallery-index="0">View Project Proof</button>
+                <a href="https://github.com/sristi15343296-alt/ExpenseFlow" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS SECTION ============ -->
+    <section id="certifications" class="section section-alt" aria-label="Certifications">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="eyebrow-mark">// </span>certifications</p>
+        <h2 class="section-title reveal">Certifications</h2>
+
+        <div class="cert-grid">
+          <div class="cert-card reveal">
+            <a class="cert-thumb-link" href="assets/certificates/cert-microsoft-cloud-infrastructure.png" target="_blank" rel="noopener noreferrer" aria-label="Open Cloud Infrastructure certificate image in a new tab">
+              <img src="assets/certificates/cert-microsoft-cloud-infrastructure.png" alt="Microsoft certificate: Cloud Infrastructure - Describe Cloud Concepts, awarded to Sristi" class="cert-thumb" loading="lazy" />
+            </a>
+            <div class="cert-card-body">
+              <h3>Cloud Infrastructure: Describe Cloud Concepts</h3>
+              <p class="cert-provider">Microsoft</p>
+              <p class="cert-date">Aug 2026</p>
+              <a href="assets/certificates/cert-microsoft-cloud-infrastructure.png" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <a class="cert-thumb-link" href="assets/certificates/cert-microsoft-generative-ai.png" target="_blank" rel="noopener noreferrer" aria-label="Open Generative AI certificate image in a new tab">
+              <img src="assets/certificates/cert-microsoft-generative-ai.png" alt="Microsoft certificate: Explore Generative AI, awarded to Sristi" class="cert-thumb" loading="lazy" />
+            </a>
+            <div class="cert-card-body">
+              <h3>Generative AI</h3>
+              <p class="cert-provider">Microsoft</p>
+              <p class="cert-date">Aug 2026</p>
+              <a href="assets/certificates/cert-microsoft-generative-ai.png" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <a class="cert-thumb-link" href="assets/certificates/cert-hackerrank-sql-advanced.png" target="_blank" rel="noopener noreferrer" aria-label="Open SQL Advanced certificate image in a new tab">
+              <img src="assets/certificates/cert-hackerrank-sql-advanced.png" alt="HackerRank certificate of accomplishment: SQL (Advanced), awarded to Sristi" class="cert-thumb" loading="lazy" />
+            </a>
+            <div class="cert-card-body">
+              <h3>SQL (Advanced)</h3>
+              <p class="cert-provider">HackerRank</p>
+              <p class="cert-date">Aug 2026</p>
+              <a href="assets/certificates/cert-hackerrank-sql-advanced.png" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <a class="cert-thumb-link" href="assets/certificates/cert-infosys-intro-to-ai.png" target="_blank" rel="noopener noreferrer" aria-label="Open Introduction To Artificial Intelligence certificate image in a new tab">
+              <img src="assets/certificates/cert-infosys-intro-to-ai.png" alt="Infosys Springboard certificate: Introduction to Artificial Intelligence, awarded to Sristi" class="cert-thumb" loading="lazy" />
+            </a>
+            <div class="cert-card-body">
+              <h3>Introduction To Artificial Intelligence</h3>
+              <p class="cert-provider">Infosys</p>
+              <p class="cert-date">Mar 2026</p>
+              <a href="assets/certificates/cert-infosys-intro-to-ai.png" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <a class="cert-thumb-link" href="assets/certificates/cert-infosys-python-for-data-science.png" target="_blank" rel="noopener noreferrer" aria-label="Open Python for Data Science certificate image in a new tab">
+              <img src="assets/certificates/cert-infosys-python-for-data-science.png" alt="Infosys Springboard certificate: Python for Data Science, awarded to Sristi" class="cert-thumb" loading="lazy" />
+            </a>
+            <div class="cert-card-body">
+              <h3>Python for Data Science</h3>
+              <p class="cert-provider">Infosys</p>
+              <p class="cert-date">Feb 2026</p>
+              <a href="assets/certificates/cert-infosys-python-for-data-science.png" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <a class="cert-thumb-link" href="assets/certificates/cert-upgrad-python-for-data-science.png" target="_blank" rel="noopener noreferrer" aria-label="Open Introduction to Python for Data Science certificate image in a new tab">
+              <img src="assets/certificates/cert-upgrad-python-for-data-science.png" alt="upGrad certificate of completion: Introduction to Python for Data Science, awarded to Sristi" class="cert-thumb" loading="lazy" />
+            </a>
+            <div class="cert-card-body">
+              <h3>Introduction to Python for Data Science</h3>
+              <p class="cert-provider">UpGrad</p>
+              <p class="cert-date">Feb 2026</p>
+              <a href="assets/certificates/cert-upgrad-python-for-data-science.png" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS SECTION ============ -->
+    <section id="achievements" class="section" aria-label="Achievements">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="eyebrow-mark">// </span>achievements</p>
+        <h2 class="section-title reveal">Achievements</h2>
+
+        <div class="achievements-grid">
+          <div class="achievement-card reveal">
+            <div class="achievement-icon" aria-hidden="true">&#127919;</div>
+            <h3 class="achievement-title-with-icon"><img src="assets/icons/problems.svg" alt="" class="mini-title-icon" aria-hidden="true" /><span>100+ Programming Problems</span></h3>
+            <p>Solved more than 100 programming problems on online coding platforms during regular practice and learning.</p>
+          </div>
+
+          <div class="achievement-card achievement-card-with-media reveal">
+            <button type="button" class="achievement-media achievement-gallery-trigger" data-gallery-index="0" aria-label="Open CDP CyberSecurity Awareness Session photo gallery">
+              <img src="assets/achievements/cybersecurity-awareness-01.jpeg" alt="Sristi conducting a CyberSecurity Awareness Session for school students" class="achievement-cover" loading="lazy" />
+              <span class="achievement-media-badge">CDP Photos</span>
+            </button>
+            <h3 class="achievement-title-with-icon"><img src="assets/icons/cybersecurity.svg" alt="" class="mini-title-icon" aria-hidden="true" /><span>CyberSecurity Awareness Session</span></h3>
+            <p>Conducted a CyberSecurity Awareness Session for school students as part of CDP.</p>
+            <button type="button" class="btn btn-outline btn-sm achievement-gallery-trigger" data-gallery-index="0">View CDP Photos</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION SECTION ============ -->
+    <section id="education" class="section section-alt" aria-label="Education timeline">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="eyebrow-mark">// </span>education</p>
+        <h2 class="section-title reveal">Education</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Aug 2025 &ndash; Present</span>
+              <h3 class="education-title"><img src="assets/education/lpu-logo.png" alt="Lovely Professional University logo" class="education-logo education-logo-lpu" loading="lazy" /><span>Lovely Professional University</span></h3>
+              <p class="timeline-role">Bachelor of Technology &ndash; Computer Science and Engineering</p>
+              <p class="timeline-place">Phagwara, Punjab</p>
+              <p class="timeline-score">CGPA: 8.42</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2024 &ndash; Mar 2025</span>
+              <h3 class="education-title"><img src="assets/education/kvs-logo-colour.jpg" alt="Kendriya Vidyalaya Sangathan logo" class="education-logo education-logo-kvs" loading="lazy" /><span>Kendriya Vidyalaya No. 1 Jalandhar Cantt</span></h3>
+              <p class="timeline-role">Higher Secondary Education</p>
+              <p class="timeline-place">Punjab</p>
+              <p class="timeline-score">Percentage: 74%</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2022 &ndash; Mar 2023</span>
+              <h3 class="education-title"><img src="assets/education/kvs-logo-colour.jpg" alt="Kendriya Vidyalaya Sangathan logo" class="education-logo education-logo-kvs" loading="lazy" /><span>Kendriya Vidyalaya No. 1 Jalandhar Cantt</span></h3>
+              <p class="timeline-role">Secondary Education</p>
+              <p class="timeline-place">Punjab</p>
+              <p class="timeline-score">Percentage: 80%</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="eyebrow-mark">// </span>contact</p>
+        <h2 class="section-title reveal">Let's Connect</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-intro">
+              I'm always open to discussing internships, collaborations, or interesting problems to solve.
+              Feel free to reach out through any of the channels below.
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:sristi15343296@gmail.com">sristi15343296@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+918264155284">+91 82641 55284</a>
+              </li>
+              <li>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/sristi104/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sristi104</a>
+              </li>
+              <li>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/sristi15343296" target="_blank" rel="noopener noreferrer">github.com/sristi15343296</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <!--
+              NOTE: This form is a front-end only demonstration.
+              No message is actually sent anywhere yet.
+              To make it functional, connect it to a backend endpoint or an
+              email service (e.g. Formspree, EmailJS, or a custom API) inside
+              the handleSubmit() function in script.js.
+            -->
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" aria-describedby="nameError" />
+              <span class="form-error" id="nameError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" aria-describedby="emailError" />
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" aria-describedby="messageError"></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============ PROJECT PROOF PHOTO GALLERY ============ -->
+  <div class="gallery-modal" id="projectGalleryModal" role="dialog" aria-modal="true" aria-labelledby="projectGalleryModalTitle" aria-hidden="true">
+    <div class="gallery-backdrop" data-project-gallery-close></div>
+    <div class="gallery-panel" role="document">
+      <button type="button" class="gallery-close" data-project-gallery-close aria-label="Close project proof gallery">&times;</button>
+
+      <div class="gallery-header">
+        <p class="gallery-kicker">Project Proof Gallery</p>
+        <h2 id="projectGalleryModalTitle">Project Screenshots</h2>
+        <p id="projectGalleryDescription">Screenshots showing the working project interface.</p>
+      </div>
+
+      <div class="gallery-viewer">
+        <button type="button" class="gallery-nav-btn" id="projectGalleryPrev" aria-label="Show previous project screenshot">&#8249;</button>
+        <figure class="gallery-figure">
+          <img id="projectGalleryImage" src="assets/projects/expenseflow-proof-01.png" alt="ExpenseFlow dashboard screenshot" />
+          <figcaption id="projectGalleryCaption">Photo 1 of 4: ExpenseFlow dashboard overview.</figcaption>
+        </figure>
+        <button type="button" class="gallery-nav-btn" id="projectGalleryNext" aria-label="Show next project screenshot">&#8250;</button>
+      </div>
+
+      <div class="gallery-thumbs" id="projectGalleryThumbs" aria-label="Project proof screenshots"></div>
+    </div>
+  </div>
+
+  <!-- ============ CDP ACHIEVEMENT PHOTO GALLERY ============ -->
+  <div class="gallery-modal" id="achievementGalleryModal" role="dialog" aria-modal="true" aria-labelledby="galleryModalTitle" aria-hidden="true">
+    <div class="gallery-backdrop" data-gallery-close></div>
+    <div class="gallery-panel" role="document">
+      <button type="button" class="gallery-close" data-gallery-close aria-label="Close CDP photo gallery">&times;</button>
+
+      <div class="gallery-header">
+        <p class="gallery-kicker">CDP Achievement Gallery</p>
+        <h2 id="galleryModalTitle">CyberSecurity Awareness Session</h2>
+        <p>Photos from the CyberSecurity awareness session conducted for school students.</p>
+      </div>
+
+      <div class="gallery-viewer">
+        <button type="button" class="gallery-nav-btn" id="galleryPrev" aria-label="Show previous photo">&#8249;</button>
+        <figure class="gallery-figure">
+          <img id="galleryImage" src="assets/achievements/cybersecurity-awareness-01.jpeg" alt="Sristi conducting a CyberSecurity Awareness Session for school students" />
+          <figcaption id="galleryCaption">Photo 1 of 5: Cover photo from the CDP CyberSecurity Awareness Session.</figcaption>
+        </figure>
+        <button type="button" class="gallery-nav-btn" id="galleryNext" aria-label="Show next photo">&#8250;</button>
+      </div>
+
+      <div class="gallery-thumbs" aria-label="CDP CyberSecurity session photos">
+        <button type="button" class="gallery-thumb-btn active" data-gallery-index="0" data-src="assets/achievements/cybersecurity-awareness-01.jpeg" data-alt="Sristi conducting a CyberSecurity Awareness Session for school students" data-caption="Cover photo from the CDP CyberSecurity Awareness Session.">
+          <img src="assets/achievements/cybersecurity-awareness-01.jpeg" alt="CDP photo thumbnail 1" loading="lazy" />
+        </button>
+        <button type="button" class="gallery-thumb-btn" data-gallery-index="1" data-src="assets/achievements/cybersecurity-awareness-02.jpeg" data-alt="Sristi presenting about cyberbullying during the CyberSecurity Awareness Session" data-caption="Presenting about cyberbullying and safe online behaviour.">
+          <img src="assets/achievements/cybersecurity-awareness-02.jpeg" alt="CDP photo thumbnail 2" loading="lazy" />
+        </button>
+        <button type="button" class="gallery-thumb-btn" data-gallery-index="2" data-src="assets/achievements/cybersecurity-awareness-03.jpeg" data-alt="Sristi explaining internet safety concepts to students" data-caption="Explaining internet safety concepts and interacting with students.">
+          <img src="assets/achievements/cybersecurity-awareness-03.jpeg" alt="CDP photo thumbnail 3" loading="lazy" />
+        </button>
+        <button type="button" class="gallery-thumb-btn" data-gallery-index="3" data-src="assets/achievements/cybersecurity-awareness-04.jpeg" data-alt="Students participating in the CyberSecurity Awareness Session" data-caption="Students actively participating during the awareness session.">
+          <img src="assets/achievements/cybersecurity-awareness-04.jpeg" alt="CDP photo thumbnail 4" loading="lazy" />
+        </button>
+        <button type="button" class="gallery-thumb-btn" data-gallery-index="4" data-src="assets/achievements/cybersecurity-awareness-05.jpeg" data-alt="Group interaction during the CyberSecurity Awareness Session" data-caption="Group interaction and closing moments from the CDP session.">
+          <img src="assets/achievements/cybersecurity-awareness-05.jpeg" alt="CDP photo thumbnail 5" loading="lazy" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Sristi. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/sristi104/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+        <a href="https://github.com/sristi15343296" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+        <a href="mailto:sristi15343296@gmail.com" aria-label="Send an email">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ SCROLL TO TOP BUTTON ============ -->
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll back to top">&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
